@@ -6,3 +6,8 @@
 
 # Folder
 node_modules
+
+Java/algorithm-study/.settings
+Java/algorithm-study/bin
+Java/algorithm-study/*.classpath
+Java/algorithm-study/*.project
