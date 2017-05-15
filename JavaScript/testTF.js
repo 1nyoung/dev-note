@@ -11,7 +11,8 @@ console.log(false || false || true)
 
 // 순서대로 true면 계속 비교 false면 false
 // 다 true일때 true
-console.log(true && true && false)
+console.log('hi')
+console.log(true && (true || true ) && true)
 console.log(false && true && true)
 
 console.log(true && true)
