@@ -59,7 +59,9 @@ console.log(oo == undefined)
 console.log(oo == 0)
 console.log(oo.length == 0)
 console.log(typeof oo)
- 
+console.log(Array.isArray(oo))
+
+
 /*
  "" 빈배열은 없는게 아니다
  */

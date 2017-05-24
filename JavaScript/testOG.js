@@ -17,7 +17,7 @@ og(url, function (err, meta) {
 
 var ogs = require('open-graph-scraper')
 
-var url = 'https://medium.com/@Alleys'
+var url = 'https://www.youtube.com/watch?v=b0F6DXySogg'
 var options = {'url': url};
 ogs(options, function (err, meta) {
     console.log('err:', err); // This is returns true or false. True if there was a error. The error it self is inside the results object.
