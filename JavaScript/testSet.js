@@ -17,3 +17,6 @@ console.log(sss)
 console.log(Array.isArray(sss))
 
 console.log(Array.from(sss))
+
+
+console.log(aa.length)
