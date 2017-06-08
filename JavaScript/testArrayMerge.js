@@ -15,11 +15,7 @@ var arr2 = [{name:"d", age:"33"}, {name:"e", age:"33"}, {name:"f", age:"33"}, {n
 //console.log($.extend(arr1, arr2))
 
 
-console.log(arr1.slice(0,3))
-console.log(arr1)
-console.log(arr1.slice(0,3))
-console.log(arr1)
-console.log(arr1.slice(0,3))
+arr1 = arr1.splice(1,1)
 console.log(arr1)
 
 
