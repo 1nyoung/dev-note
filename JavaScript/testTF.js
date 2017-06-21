@@ -17,3 +17,11 @@ console.log(false && true && true)
 
 console.log(true && true)
 console.log(false && true)
+
+
+//셋 중에 아무것도 아닐때 에러
+// if(wg !== 'c' && wg !== 'n' && wg !== 'p' ){
+//     console.log('hohohohoho')
+//     res.err('wg has invalid type: '+ wg)
+//     return
+// }

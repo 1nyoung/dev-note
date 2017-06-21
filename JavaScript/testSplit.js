@@ -4,16 +4,16 @@ var res = str.split(" ");
 
 
 
-var type = "blog/naver"
+var type1 = "blognaver"
 var type2 = "Video/youtube"
 
 //type = type.split('/')
 console.log((type.split('/'))[0])
 
 
-var oo = {
-    type: "1234"
-}
-var se =  oo.fjl || ''
-
-console.log(se)
+// var oo = {
+//     type: "1234"
+// }
+// var se =  oo.fjl || ''
+//
+// console.log(se)

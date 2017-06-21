@@ -17,14 +17,15 @@ var og = require('open-graph')
 
 var ogs = require('open-graph-scraper')
 
-var url = 'https://youtu.be/jPFDO_0lvwwwww'
+var url = 'http://blog.naver.com/wddjiy777zzzzz'
 var options = {'url': url};
 ogs(options, function (err, meta) {
     if(err){
-        console.log(err)
+        console.log('err' + err)
+        //console.log(err)
         return
     }
-    console.log(mata)
+    console.log(meta)
 
 });
 

@@ -26,16 +26,26 @@
 // console.log('ggggg')
 
 
-
+var aa = null
 var ss = ""
 var dd
 var oo = []
 
-if('hoho' && ss){
-    cosnole.log('a')
-}else{
-    console.log('b')
-}
+
+
+
+
+
+
+console.log(!aa)
+console.log(aa === null)
+console.log(aa == undefined)
+console.log(aa == 0)
+console.log(typeof aa)
+
+console.log('======================')
+
+
 console.log(!ss)
 console.log(ss === null)
 console.log(ss == undefined)
