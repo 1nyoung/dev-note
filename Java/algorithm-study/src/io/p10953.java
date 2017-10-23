@@ -1,7 +1,6 @@
 package io;
 
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 // A+B - 6
 public class p10953 {
