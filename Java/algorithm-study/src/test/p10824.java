@@ -12,9 +12,10 @@ public class p10824 {
 		String[] line = bf.readLine().split(" ");
 		String a = line[0] + line[1];
 		String b = line[2] + line[3];
-		int ans2 = Integer.parseInt(a) + Integer.parseInt(b);
-		//long ans = Long.valueOf(a) + Long.valueOf(b);
-		System.out.println(ans2);
+		
+		//int ans2 = Integer.parseInt(a) + Integer.parseInt(b);
+		long ans = Long.valueOf(a) + Long.valueOf(b);
+		System.out.println(ans);
 	}
 }
 

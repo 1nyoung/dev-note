@@ -8,9 +8,9 @@ public class p2558 {
 		
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
-		//String s = sc.nextLine();
+		String s = sc.nextLine();
 		int b = sc.nextInt();
-		//String ss = sc.nextLine();
+		String ss = sc.nextLine();
 		
 		System.out.println(a + b);
 	}
