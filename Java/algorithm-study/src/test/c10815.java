@@ -1,5 +1,4 @@
 package test;
-
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.StringTokenizer;
@@ -39,5 +38,4 @@ public class c10815 {
 		
 		System.out.println(sb);
 	}
-
 }

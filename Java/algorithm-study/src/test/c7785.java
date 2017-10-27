@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Scanner;
 
-// 회사에 있는 사람
+// 회사에 있는 사람 - HashSet
 public class c7785 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
-// 수 정렬하기
+// 수 정렬하기 - ArrayList
 public class c2750 {
 	public static void main(String[] args) {
 

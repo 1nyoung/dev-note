@@ -30,5 +30,4 @@ public class p5619 {
 		Arrays.sort(ans);
 		System.out.println(ans[2]);
 	}
-
 }
