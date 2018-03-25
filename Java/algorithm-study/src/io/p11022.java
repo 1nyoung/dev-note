@@ -2,6 +2,7 @@ package io;
 
 import java.util.Scanner;
 
+// A+B - 8
 public class p11022 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
