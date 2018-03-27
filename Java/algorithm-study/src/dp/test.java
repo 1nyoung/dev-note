@@ -5,28 +5,26 @@ import java.util.Scanner;
 public class test {
 
 	public static void main(String[] args) {
-		int [] d = new int [100];
-		
-		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		
-		d[1] = 0;
-
-		for(int i = 2; i<=n; i++)
-		{
-			d[i] = d[i-1] + 1;
-			
-			if(i%2 ==0){
-				d[i] = d[i/2] +1;
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int a= sc.nextInt();
+//		int b = sc.nextInt();
+//		
+//		System.out.println(a + "::" + b);
+		for(int i =1; i<=10; i++){
+			if(1<2){
+				System.out.println("a");
+				if(1<2){
+					System.out.println("hello");
+					return;
+				}
+				System.out.println("hi");
+			}else{
+				System.out.println("b");
 			}
-			if(i%3 ==0){
-				d[i] = d[i/3] +1;
-			}
+				System.out.println("c");
 		}
-
-
-		System.out.println(d[n]);
-
+		System.out.println("d");
 	}
 
 }
