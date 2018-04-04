@@ -30,6 +30,7 @@ public class p10844 {
         	}
         }
         
+        // max = ans
         long ans = 0;
         for(int i=0; i<=9; i ++){
         	ans += d[n][i];
@@ -38,7 +39,5 @@ public class p10844 {
         ans %= 1000000000;
         
         System.out.println(ans);
-
 	}
-
 }

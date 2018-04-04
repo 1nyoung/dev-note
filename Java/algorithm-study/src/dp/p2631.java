@@ -3,7 +3,7 @@ package dp;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class p53 {
+public class p2631 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -26,6 +26,6 @@ public class p53 {
 			}
 		}
 		Arrays.sort(d);
-		System.out.println(d[n]);
+		System.out.println(n - d[n]);
 	}
 }

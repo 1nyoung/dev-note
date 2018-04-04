@@ -3,7 +3,7 @@ package dp;
 import java.util.Scanner;
 
 // 가장 긴 증가하는 부분 수열
-public class p1153 {
+public class p11053 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
