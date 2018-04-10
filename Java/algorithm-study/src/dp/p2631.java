@@ -3,8 +3,8 @@ package dp;
 import java.util.Arrays;
 import java.util.Scanner;
 
+// 줄세우기
 public class p2631 {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -16,7 +16,6 @@ public class p2631 {
 			arr[i] = sc.nextInt();
 		}
 		
-
 		for(int i = 1; i<=n; i++){
 			d[i] =1;
 			for(int j=1; j<i; j++){

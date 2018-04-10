@@ -1,4 +1,4 @@
-package test;
+package samsung;
 
 import java.util.Scanner;
 
@@ -17,9 +17,7 @@ public class p14886 {
 			}			
 		}
 		
-			
 		System.out.println(d[3][1]);
-
 	}
 
 }

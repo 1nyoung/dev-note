@@ -19,5 +19,4 @@ public class fobonacci_BU {
 		System.out.println(d[n]);
 
 	}
-
 }

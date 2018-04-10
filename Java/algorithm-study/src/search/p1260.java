@@ -9,16 +9,17 @@ public class p1260 {
 
 	public static void dfs(int x) {
 		if (c[x]) {
+			System.out.println("리턴");
 			return;
 		}
 		
 		c[x] = true;
 		
-		System.out.print(x + " ");
-		//System.out.println("-------------"+x);
+		//System.out.print(x + " ");
+		System.out.println("-------------"+x);
 		
 		for (int y : a[x]) {
-			//System.out.println(y);
+			System.out.println(y);
 			if (c[y] == false) {
 				dfs(y);
 			}
@@ -73,8 +74,8 @@ public class p1260 {
 		dfs(start);
 		System.out.println();
 		
-		c = new boolean[n + 1];
-		bfs(start);
-		System.out.println();
+//		c = new boolean[n + 1];
+//		bfs(start);
+//		System.out.println();
 	}
 }

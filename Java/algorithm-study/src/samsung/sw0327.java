@@ -1,4 +1,4 @@
-package dp;
+package samsung;
 
 import java.util.Scanner;
 
