@@ -1,10 +1,19 @@
 package test;
 
+import java.util.Scanner;
+
 public class practice {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	static int n;
+	
+	static int hi() {
+		n ++;
+		return n;
 	}
 
+	public static void main(String[] args) {
+		int temp;
+		while(hi() < 3 ){
+			System.out.println(n);
+		}
+	}
 }

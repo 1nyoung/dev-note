@@ -2,26 +2,27 @@ package search;
 
 import java.util.Scanner;
 
-// 부분집합의 합 - dfs
+// 부분집합의 합
+// 완전탐색 - dfs
 public class p1182 {
 	static int N, S, val[], cnt, sum;
 	
 	static void dfs(int current){
+
 		if(current == N){
-			System.out.println("리턴");
 			return;
 		}
 
-		if(sum + val[current] == S){
-			cnt ++;
-		}
-
-		dfs(current+1);
+		dfs(current + 1);
 		
 		sum = sum + val[current];
-		dfs(current+1);
 		
-		// 백트래킹
+		if(sum == S){
+			cnt++;
+		}
+		
+		dfs(current + 1);
+		
 		sum = sum - val[current];
 	}
 	
@@ -37,6 +38,6 @@ public class p1182 {
 		}
 		
 		dfs(0);
-		//System.out.println(cnt);
+		System.out.println(cnt);
 	}
 }

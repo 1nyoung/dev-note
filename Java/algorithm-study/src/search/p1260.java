@@ -3,6 +3,7 @@ package search;
 import java.util.*;
 
 // bfs & dfs
+// 트리 
 public class p1260 {
 	static ArrayList<Integer>[] a;
 	static boolean[] c;

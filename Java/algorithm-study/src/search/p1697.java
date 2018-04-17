@@ -5,6 +5,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 // 숨바꼭질
+// 완전탐색 - bfs
 public class p1697 {
 	public static void bfs(int start, int end) {
 		int[] c = new int[100001];

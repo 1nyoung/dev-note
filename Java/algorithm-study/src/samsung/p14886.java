@@ -3,6 +3,7 @@ package samsung;
 import java.util.Scanner;
 
 // 스타트와 링크
+// dp
 public class p14886 {
 
 	public static void main(String[] args) {
