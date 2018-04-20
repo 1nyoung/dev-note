@@ -2,19 +2,19 @@ package string;
 
 import java.util.Scanner;
 
-// 문자열 - 문자열 반복
-public class f2675 {
+// 문자열 반복
+public class p2675 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int cnt = sc.nextInt();
+		int N = sc.nextInt();
 		
-		for(int i = 0; i<cnt; i++){
-			int n = sc.nextInt();
+		for(int i = 0; i<N; i ++){
+			int num = sc.nextInt();
 			String str = sc.next();
-
-			for(int j = 0; j<str.length(); j++){
-				for(int k = 0; k<n; k++){
+			
+			for(int j = 0; j< str.length(); j ++){
+				for(int k= 0; k<num; k++){
 					System.out.print(str.charAt(j));
 				}
 			}

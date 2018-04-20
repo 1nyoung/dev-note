@@ -3,7 +3,7 @@ package string;
 import java.util.Scanner;
 
 // 문자열 - 상수
-public class f2908 {
+public class p2908 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		

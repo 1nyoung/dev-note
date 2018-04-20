@@ -42,8 +42,6 @@ public class p2178 {
 			
 			y = p.getY();
 			x = p.getX();
-			//visit[y][x] = true;
-			
 			
 			if(y == N-1 && x == M-1) return;
 			

@@ -1,9 +1,9 @@
-package hh;
+package string;
 
 import java.util.Scanner;
 
 // 단어공부
-public class s1157 {
+public class p1157 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String s = sc.next();
